@@ -1,0 +1,17 @@
+expression Server = "hazen-gissql.database.windows.net,1433" meta [IsParameterQuery=true, Type="Any", IsParameterQueryRequired=true]
+	lineageTag: 03e955e0-4271-43a8-876e-a7c3edcc04b2
+
+	annotation PBI_ResultType = Exception
+
+expression Database = "CO_IMDSS" meta [IsParameterQuery=true, Type="Any", IsParameterQueryRequired=true]
+	lineageTag: ee5e9365-c523-413f-aefb-88ce6405d6a8
+
+	annotation PBI_ResultType = Exception
+
+expression Schema = "Hazen" meta [IsParameterQuery=true, Type="Any", IsParameterQueryRequired=true]
+	lineageTag: bbcc4fc0-a1cb-4ec6-bc72-b7afb761de81
+
+	annotation PBI_ResultType = Text
+
+	annotation PBI_NavigationStepName = Navigation
+

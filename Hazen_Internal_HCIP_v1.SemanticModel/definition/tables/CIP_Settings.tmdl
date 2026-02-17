@@ -1,0 +1,205 @@
+table CIP_Settings
+	isHidden
+	lineageTag: 6b6efb97-536f-4650-b452-9ffcaee428b4
+
+	column ID
+		dataType: int64
+		isHidden
+		isNullable: false
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: f8713be8-45ec-47ec-b0c9-ad4e9d244100
+		summarizeBy: count
+		sourceColumn: ID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column CutSheet_GroupID
+		dataType: string
+		isHidden
+		sourceProviderType: nvarchar(max)
+		lineageTag: 5164f22d-9b00-446b-8efa-cbf446c51b14
+		summarizeBy: none
+		sourceColumn: CutSheet_GroupID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column CutSheet_ReportID
+		dataType: string
+		isHidden
+		sourceProviderType: nvarchar(max)
+		lineageTag: 44ece79b-f69d-4072-a5e1-16b7f6b72c20
+		summarizeBy: none
+		sourceColumn: CutSheet_ReportID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Token
+		dataType: string
+		isHidden
+		sourceProviderType: nvarchar(max)
+		lineageTag: dca43dc5-9bc6-4fc6-9621-9c4fdf941440
+		summarizeBy: none
+		sourceColumn: Token
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column CIP_SequencingLogic
+		dataType: int64
+		isHidden
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 4e5c2cf6-de74-4e73-a1d2-33e82b76398e
+		summarizeBy: sum
+		sourceColumn: CIP_SequencingLogic
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column CIP_BudgetInfilling
+		dataType: int64
+		isHidden
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: dc3a4a9c-1700-467a-be67-2005279ea5a9
+		summarizeBy: sum
+		sourceColumn: CIP_BudgetInfilling
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column CIP_BudgetRollover
+		dataType: int64
+		isHidden
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: c2e76626-b5dd-4a6d-ad64-ca9a88b2c50d
+		summarizeBy: sum
+		sourceColumn: CIP_BudgetRollover
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column SessionExpirationTimeSeconds
+		dataType: int64
+		isHidden
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: c968ac17-3c0d-40f3-9032-72e09f8eb7de
+		summarizeBy: sum
+		sourceColumn: SessionExpirationTimeSeconds
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column HeaderText
+		dataType: string
+		isHidden
+		sourceProviderType: nvarchar(150)
+		lineageTag: 15886ac8-c16b-4896-90d4-69453ecb4425
+		summarizeBy: none
+		sourceColumn: HeaderText
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column ClientLogoURL
+		dataType: string
+		isHidden
+		sourceProviderType: nvarchar(max)
+		lineageTag: b84de307-2ba3-4993-ad33-5727f68a0870
+		summarizeBy: none
+		sourceColumn: ClientLogoURL
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column CutSheet_EmailSubjectDefault
+		dataType: string
+		isHidden
+		sourceProviderType: nvarchar(max)
+		lineageTag: 3d3b512c-12f7-4d1f-9eb8-e6ddb4931f35
+		summarizeBy: none
+		sourceColumn: CutSheet_EmailSubjectDefault
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column CutSheet_EmailSignatureDefault
+		dataType: string
+		isHidden
+		sourceProviderType: nvarchar(max)
+		lineageTag: 1be6af36-3100-44f0-9030-bb8f423e2965
+		summarizeBy: none
+		sourceColumn: CutSheet_EmailSignatureDefault
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column BREQuadrantsDividerX
+		dataType: double
+		isHidden
+		sourceProviderType: float
+		lineageTag: 240c805c-d946-4cea-bf8d-83993dadee79
+		summarizeBy: sum
+		sourceColumn: BREQuadrantsDividerX
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column BREQuadrantsDividerY
+		dataType: double
+		isHidden
+		sourceProviderType: float
+		lineageTag: 3b0c2bb9-b597-4512-86a1-3b7ea1404ae5
+		summarizeBy: sum
+		sourceColumn: BREQuadrantsDividerY
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column SchemaName
+		dataType: string
+		sourceProviderType: nvarchar(50)
+		lineageTag: c9f2e66e-dc50-441d-b089-8270f78f19fd
+		summarizeBy: none
+		sourceColumn: SchemaName
+
+		annotation SummarizationSetBy = Automatic
+
+	partition CIP_Settings = m
+		mode: directQuery
+		source =
+				let
+				    Source = Sql.Database(Server, Database),
+				    HCIP_CIP_Settings = Source{[Schema=Schema,Item="CIP_Settings"]}[Data],
+				    #"Removed Columns" = Table.RemoveColumns(HCIP_CIP_Settings,{"PasswordCIP", "PasswordCIPAdmin"})
+				in
+				    #"Removed Columns"
+
+	changedProperty = IsHidden
+
+	annotation PBI_ResultType = Table
+

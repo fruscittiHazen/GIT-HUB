@@ -1,0 +1,36 @@
+table CIP_Consultants
+	lineageTag: 54c4ae43-52a7-46c3-bb87-bb8b7a828689
+
+	column Name
+		dataType: string
+		sourceProviderType: nvarchar(250)
+		lineageTag: 943bca45-0f78-4d28-825d-735a42ab705d
+		summarizeBy: none
+		sourceColumn: Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column AutoID
+		dataType: int64
+		isNullable: false
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 9830e5e5-cd09-4708-8c2b-895687d30048
+		summarizeBy: none
+		sourceColumn: AutoID
+
+		annotation SummarizationSetBy = User
+
+	partition CIP_Consultants = m
+		mode: directQuery
+		source =
+				let
+				    Source = Sql.Database(Server, Database),
+				    HCIP_CIP_Consultants = Source{[Schema=Schema,Item="CIP_Consultants"]}[Data]
+				in
+				    HCIP_CIP_Consultants
+
+	annotation PBI_ResultType = Exception
+
+	annotation PBI_NavigationStepName = Navigation
+

@@ -1,0 +1,574 @@
+table CIP_Projects
+	lineageTag: 976b5808-1c1a-46e0-95f1-54f7a904cf7a
+
+	column Program
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 0998f3b9-ed5e-4ecf-9131-ff59e2807ea1
+		summarizeBy: none
+		sourceColumn: Program
+
+		annotation SummarizationSetBy = Automatic
+
+	column Facility
+		dataType: string
+		sourceProviderType: nvarchar(50)
+		lineageTag: b0b7cf92-82d4-4a56-8634-2f4d61c744aa
+		summarizeBy: none
+		sourceColumn: Facility
+
+		annotation SummarizationSetBy = Automatic
+
+	column Description
+		dataType: string
+		sourceProviderType: nvarchar(max)
+		lineageTag: 1cfd4266-7a4e-4873-abc4-8acf271bf16c
+		summarizeBy: none
+		sourceColumn: Description
+
+		annotation SummarizationSetBy = Automatic
+
+	column Latitude
+		dataType: double
+		sourceProviderType: float
+		lineageTag: 6d1983f9-a893-46f3-a620-40aa53a916f4
+		dataCategory: Latitude
+		summarizeBy: none
+		sourceColumn: Latitude
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Longitude
+		dataType: double
+		sourceProviderType: float
+		lineageTag: 87661e8c-cc54-40f5-b9f8-881bcd101f68
+		dataCategory: Longitude
+		summarizeBy: none
+		sourceColumn: Longitude
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Region
+		dataType: string
+		sourceProviderType: nvarchar(50)
+		lineageTag: 17be26ea-ca94-4077-b8ef-2b73f19dc02b
+		summarizeBy: none
+		sourceColumn: Region
+
+		annotation SummarizationSetBy = Automatic
+
+	column Subregion
+		dataType: string
+		sourceProviderType: nvarchar(50)
+		lineageTag: 7e6bc798-690b-4326-bcc4-b5a6f995902c
+		summarizeBy: none
+		sourceColumn: Subregion
+
+		annotation SummarizationSetBy = Automatic
+
+	column AssetID
+		dataType: string
+		sourceProviderType: nvarchar(50)
+		lineageTag: b8380e22-22e9-4602-b8d1-24d7f13ea6c2
+		summarizeBy: none
+		sourceColumn: AssetID
+
+		annotation SummarizationSetBy = Automatic
+
+	column SubProgram
+		dataType: string
+		sourceProviderType: nvarchar(100)
+		lineageTag: c2e032d0-bc91-4342-b9d0-1609f39dfcd6
+		summarizeBy: none
+		sourceColumn: SubProgram
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProjectName
+		dataType: string
+		sourceProviderType: nvarchar(150)
+		lineageTag: 04d9e383-0a12-458d-8367-a411ed61e54a
+		summarizeBy: none
+		sourceColumn: ProjectName
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProjectType
+		dataType: string
+		sourceProviderType: nvarchar(50)
+		lineageTag: be8ee8b9-f4b2-4569-810b-68f099bf9b7b
+		summarizeBy: none
+		sourceColumn: ProjectType
+
+		annotation SummarizationSetBy = Automatic
+
+	column StartYear
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 2449136a-911a-4b26-8b0d-5e43c52f74ee
+		summarizeBy: none
+		sourceColumn: StartYear
+
+		annotation SummarizationSetBy = User
+
+	column EndYear
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 718f9368-a248-49b0-97bd-f0a72d0bbd93
+		summarizeBy: none
+		sourceColumn: EndYear
+
+		annotation SummarizationSetBy = User
+
+	column Duration
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: b282ada6-5c2d-4923-8954-2483e02f5a2f
+		summarizeBy: none
+		sourceColumn: Duration
+
+		annotation SummarizationSetBy = User
+
+	column ProgressPercent
+		dataType: double
+		formatString: 0%;-0%;0%
+		sourceProviderType: float
+		lineageTag: 358bb92a-be41-4d69-8114-a8dcd44584aa
+		summarizeBy: none
+		sourceColumn: ProgressPercent
+
+		annotation SummarizationSetBy = User
+
+	column Status
+		dataType: string
+		sourceProviderType: nvarchar(50)
+		lineageTag: fac1c431-f763-40c8-af3e-365144297be9
+		summarizeBy: none
+		sourceColumn: Status
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProjectManager
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 00d34718-d1a2-496e-9ed9-6cc623c1080a
+		summarizeBy: none
+		sourceColumn: ProjectManager
+
+		annotation SummarizationSetBy = Automatic
+
+	column ContractorConsultant
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 55feed32-2335-4e6b-820e-bbdd2f610545
+		summarizeBy: none
+		sourceColumn: ContractorConsultant
+
+		annotation SummarizationSetBy = Automatic
+
+	column ActivityY1
+		dataType: string
+		sourceProviderType: nvarchar(100)
+		lineageTag: 8c8c95c7-b689-4c08-9258-4f60b8628f64
+		summarizeBy: none
+		sourceColumn: ActivityY1
+
+		annotation SummarizationSetBy = Automatic
+
+	column ActivityY2
+		dataType: string
+		sourceProviderType: nvarchar(100)
+		lineageTag: a2e446c2-095d-4253-8a71-ee600b36db73
+		summarizeBy: none
+		sourceColumn: ActivityY2
+
+		annotation SummarizationSetBy = Automatic
+
+	column ActivityY3
+		dataType: string
+		sourceProviderType: nvarchar(100)
+		lineageTag: 8b8c084d-52a0-417c-8cf0-f0886f3a06eb
+		summarizeBy: none
+		sourceColumn: ActivityY3
+
+		annotation SummarizationSetBy = Automatic
+
+	column ActivityY4
+		dataType: string
+		sourceProviderType: nvarchar(100)
+		lineageTag: c4b86474-add4-4318-aa0c-1f66fb6e7b1c
+		summarizeBy: none
+		sourceColumn: ActivityY4
+
+		annotation SummarizationSetBy = Automatic
+
+	column ActivityY5
+		dataType: string
+		sourceProviderType: nvarchar(100)
+		lineageTag: 9bdd0150-89b3-44a9-a1a0-0c89ccf0ae4f
+		summarizeBy: none
+		sourceColumn: ActivityY5
+
+		annotation SummarizationSetBy = Automatic
+
+	column CostY1
+		dataType: double
+		sourceProviderType: float
+		lineageTag: 7c791847-d867-4104-bd5b-96552a992d74
+		summarizeBy: sum
+		sourceColumn: CostY1
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column CostY2
+		dataType: double
+		sourceProviderType: float
+		lineageTag: b6e30bfa-5646-495c-8bdb-26f8a1da7f78
+		summarizeBy: sum
+		sourceColumn: CostY2
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column CostY3
+		dataType: double
+		sourceProviderType: float
+		lineageTag: c61c3a6b-50cd-4e63-92d1-8ca03ed2bfa9
+		summarizeBy: sum
+		sourceColumn: CostY3
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column CostY4
+		dataType: double
+		sourceProviderType: float
+		lineageTag: ca3156e9-483a-4bfb-914f-8bfe01fbc53a
+		summarizeBy: sum
+		sourceColumn: CostY4
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column CostY5
+		dataType: double
+		sourceProviderType: float
+		lineageTag: 73e40991-ed3a-4145-8f76-2f552f8c943f
+		summarizeBy: sum
+		sourceColumn: CostY5
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column EstimatedCost
+		dataType: double
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		sourceProviderType: float
+		lineageTag: 5abb07c6-3908-4d53-b94e-87a3ee9f34d7
+		summarizeBy: sum
+		sourceColumn: EstimatedCost
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProjectedCost
+		dataType: double
+		formatString: \$#,0;(\$#,0);\$#,0
+		sourceProviderType: float
+		lineageTag: f53238fc-2821-49f7-8959-1df445e7586b
+		summarizeBy: sum
+		sourceColumn: ProjectedCost
+
+		annotation SummarizationSetBy = Automatic
+
+	column ActualCost
+		dataType: double
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		sourceProviderType: float
+		lineageTag: b5ac0b38-ea7d-4757-8f9f-528e08b6f71b
+		summarizeBy: sum
+		sourceColumn: ActualCost
+
+		annotation SummarizationSetBy = Automatic
+
+	column DeltaCost
+		dataType: double
+		sourceProviderType: float
+		lineageTag: b357fa4f-198c-4365-bc93-d8bcba45cbce
+		summarizeBy: sum
+		sourceColumn: DeltaCost
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Condition
+		dataType: double
+		sourceProviderType: float
+		lineageTag: 6f6e0c3b-d13d-4957-a918-fcfbab368055
+		summarizeBy: none
+		sourceColumn: Condition
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column POF
+		dataType: double
+		sourceProviderType: float
+		lineageTag: 6c3c7ecc-500f-4221-84ad-d4ffaf892ba6
+		summarizeBy: none
+		sourceColumn: POF
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column COF
+		dataType: double
+		sourceProviderType: float
+		lineageTag: 3eea0ea1-a642-4586-8b3f-82c5221d8ff9
+		summarizeBy: none
+		sourceColumn: COF
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Risk
+		dataType: double
+		sourceProviderType: float
+		lineageTag: c1b9617a-df40-4348-8f9c-56c612a6e437
+		summarizeBy: none
+		sourceColumn: Risk
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Driver1
+		dataType: double
+		formatString: 0
+		sourceProviderType: float
+		lineageTag: 31669b6d-6f72-4fe3-87ef-b5ff270b6207
+		summarizeBy: sum
+		sourceColumn: Driver1
+
+		annotation SummarizationSetBy = Automatic
+
+	column Driver2
+		dataType: double
+		formatString: 0
+		sourceProviderType: float
+		lineageTag: 3b608659-1b2b-4476-a1d3-e26d1995ef0d
+		summarizeBy: sum
+		sourceColumn: Driver2
+
+		annotation SummarizationSetBy = Automatic
+
+	column Driver3
+		dataType: double
+		formatString: 0
+		sourceProviderType: float
+		lineageTag: 6d6159bd-469b-4906-bd78-a5758fae4a43
+		summarizeBy: sum
+		sourceColumn: Driver3
+
+		annotation SummarizationSetBy = Automatic
+
+	column Driver4
+		dataType: double
+		formatString: 0
+		sourceProviderType: float
+		lineageTag: f76cd3c8-f3e5-4ff1-a148-575cb48feab2
+		summarizeBy: sum
+		sourceColumn: Driver4
+
+		annotation SummarizationSetBy = Automatic
+
+	column Driver5
+		dataType: double
+		formatString: 0
+		sourceProviderType: float
+		lineageTag: fb4ebf7a-b9b8-47b8-b10f-b4e4e0285555
+		summarizeBy: sum
+		sourceColumn: Driver5
+
+		annotation SummarizationSetBy = Automatic
+
+	column Driver6
+		dataType: double
+		formatString: 0
+		sourceProviderType: float
+		lineageTag: 937d542f-cc09-49c6-b808-2819715b7f58
+		summarizeBy: sum
+		sourceColumn: Driver6
+
+		annotation SummarizationSetBy = Automatic
+
+	column OverallScore
+		dataType: double
+		formatString: 0.00
+		sourceProviderType: float
+		lineageTag: 158d0336-10a3-4b2e-9d12-746d183c3b7d
+		summarizeBy: sum
+		sourceColumn: OverallScore
+
+		annotation SummarizationSetBy = Automatic
+
+	column Comments
+		dataType: string
+		sourceProviderType: nvarchar(max)
+		lineageTag: f69cf255-f467-4935-b380-416bada4ba70
+		summarizeBy: none
+		sourceColumn: Comments
+
+		annotation SummarizationSetBy = Automatic
+
+	column URL1
+		dataType: string
+		sourceProviderType: nvarchar(max)
+		lineageTag: c45e52a2-e918-428c-b5f2-03f28f52c914
+		dataCategory: WebUrl
+		summarizeBy: none
+		sourceColumn: URL1
+
+		annotation SummarizationSetBy = Automatic
+
+	column URL2
+		dataType: string
+		sourceProviderType: nvarchar(max)
+		lineageTag: 1913e9fc-9279-4885-b2e3-6e0c1193ae98
+		dataCategory: WebUrl
+		summarizeBy: none
+		sourceColumn: URL2
+
+		annotation SummarizationSetBy = Automatic
+
+	column URL3
+		dataType: string
+		sourceProviderType: nvarchar(max)
+		lineageTag: d38af602-1424-4577-ab86-63dd6e3c54d4
+		dataCategory: WebUrl
+		summarizeBy: none
+		sourceColumn: URL3
+
+		annotation SummarizationSetBy = Automatic
+
+	column Scenario
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 7aa8dd44-2722-4ee2-84d1-27d21a114630
+		summarizeBy: none
+		sourceColumn: Scenario
+
+		annotation SummarizationSetBy = User
+
+	column PrioritizationNotes
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(50)
+		lineageTag: cd2dc43a-8dec-47e8-8d4d-00e4f7627955
+		summarizeBy: none
+		sourceColumn: PrioritizationNotes
+
+		annotation SummarizationSetBy = Automatic
+
+	column BRECategory
+		dataType: string
+		sourceProviderType: nvarchar(50)
+		lineageTag: 091609eb-3f10-4619-8d26-8ccfa419c979
+		summarizeBy: none
+		sourceColumn: BRECategory
+
+		annotation SummarizationSetBy = Automatic
+
+	column BRECost
+		dataType: double
+		formatString: \$#,0;(\$#,0);\$#,0
+		sourceProviderType: float
+		lineageTag: fa23a2cb-4795-4982-9a87-44a35a0f9073
+		summarizeBy: sum
+		sourceColumn: BRECost
+
+		annotation SummarizationSetBy = Automatic
+
+	column StartDate = IF(ISBLANK(CIP_Projects[StartYear]),BLANK(), DATE(CIP_Projects[StartYear],1,1))
+		formatString: Long Date
+		lineageTag: 37868c02-5c1a-47cb-a567-9972a600f407
+		summarizeBy: none
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column EndDate = IF(ISBLANK(CIP_Projects[EndYear]),BLANK(),DATE(CIP_Projects[EndYear],1,1))
+		formatString: Long Date
+		lineageTag: 7760ba2c-5ab1-4b7d-9409-4ecc99c40eab
+		summarizeBy: none
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column AutoID
+		dataType: int64
+		isNullable: false
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 07505a93-a861-4334-a511-790b88c180df
+		summarizeBy: none
+		sourceColumn: AutoID
+
+		annotation SummarizationSetBy = User
+
+	column ProjectID
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(50)
+		lineageTag: 26a34996-f278-4f2b-913e-2cea87841071
+		summarizeBy: none
+		sourceColumn: ProjectID
+
+		annotation SummarizationSetBy = Automatic
+
+	column FundingSource
+		dataType: string
+		sourceProviderType: nvarchar(150)
+		lineageTag: 37ee595e-0505-4a3a-80d0-412291ababe6
+		summarizeBy: none
+		sourceColumn: FundingSource
+
+		annotation SummarizationSetBy = Automatic
+
+	partition CIP_Projects-2cb07625-9062-4cd9-a429-0ff5fe6f9a26 = m
+		mode: directQuery
+		source =
+				let
+				    Source = Sql.Database(Server, Database),
+				    LV_CIP = Source{[Schema=Schema,Item="CIP_Projects"]}[Data]
+				in
+				    LV_CIP
+
+	annotation PBI_ResultType = Table
+

@@ -1,8 +1,0 @@
-relationship 831ba30e-78ce-7e2f-a8bd-3d244c0eaa1e
-	fromColumn: AM_AssetRegister_Unpivot.FieldName
-	toColumn: AM_AssetRegister_Fields.FieldName
-
-relationship b53eb24c-395c-ffcf-7d6f-56f22b18c784
-	fromColumn: AM_AssetRegister_Unpivot.UAID
-	toColumn: AM_AssetRegister.UAID
-

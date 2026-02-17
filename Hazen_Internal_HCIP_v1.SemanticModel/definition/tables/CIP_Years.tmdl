@@ -1,0 +1,17 @@
+table CIP_Years
+	lineageTag: 18316bb0-36a0-47e5-846e-056d7141f13a
+
+	column Year
+		formatString: 0
+		lineageTag: 5375bd44-1b5a-49fe-8e05-0dca1da1942f
+		summarizeBy: none
+		sourceColumn: [Value]
+
+		annotation SummarizationSetBy = User
+
+	partition CIP_Years = calculated
+		mode: import
+		source = GENERATESERIES(2000,2200)
+
+	annotation PBI_Id = 114a84784d8844ebaa3e65f5a5debd72
+

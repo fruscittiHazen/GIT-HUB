@@ -1,0 +1,73 @@
+table CIP_Prioritize
+	lineageTag: 3b5439b9-5e28-412b-a992-5dc8c3a25163
+
+	column Rank
+		dataType: double
+		formatString: 0
+		sourceProviderType: float
+		lineageTag: 9714f3fb-1704-4d81-bc10-8b461eba66f2
+		summarizeBy: sum
+		sourceColumn: Rank
+
+		annotation SummarizationSetBy = Automatic
+
+	column PrioritizedStartYear
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 13249b64-db20-4b94-b905-058fd0efa2dc
+		summarizeBy: none
+		sourceColumn: PrioritizedStartYear
+
+		annotation SummarizationSetBy = Automatic
+
+	column TotalProjectCost
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: fde0207e-ccbe-42e5-b198-51cbfa548a70
+		summarizeBy: sum
+		sourceColumn: TotalProjectCost
+
+		annotation SummarizationSetBy = Automatic
+
+	column Method
+		dataType: string
+		sourceProviderType: nvarchar(50)
+		lineageTag: 121164f2-becf-4317-a330-9396fb30c362
+		summarizeBy: none
+		sourceColumn: Method
+
+		annotation SummarizationSetBy = Automatic
+
+	column DelayedFrom
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 47d2ec3b-88c3-45f6-826d-8d4ac93a4505
+		summarizeBy: sum
+		sourceColumn: DelayedFrom
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProjectAutoID
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: cb64f284-53e9-4a10-b0ea-b3d7f8c3d284
+		summarizeBy: none
+		sourceColumn: ProjectAutoID
+
+		annotation SummarizationSetBy = Automatic
+
+	partition CIP_Prioritize-2ea38407-3f1c-4700-82b0-b6867591c0d4 = m
+		mode: directQuery
+		source =
+				let
+				    Source = Sql.Database(Server, Database),
+				    LV_CIPPrioritize = Source{[Schema=Schema,Item="CIP_Prioritize"]}[Data]
+				in
+				    LV_CIPPrioritize
+
+	annotation PBI_ResultType = Table
+

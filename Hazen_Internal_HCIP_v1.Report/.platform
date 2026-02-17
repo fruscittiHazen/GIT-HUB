@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Hazen_Internal_HCIP_v1"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "577d299f-d690-b8ab-4f3b-e72c491c38da"
+  }
+}
