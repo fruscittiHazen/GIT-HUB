@@ -1,0 +1,34 @@
+table CIP_Managers
+	lineageTag: 8316d91c-8e5b-4598-a4fb-1b777e339b90
+
+	column Name
+		dataType: string
+		sourceProviderType: nvarchar(250)
+		lineageTag: 096173d8-5fe0-4cd0-95cb-e4abae82dc87
+		summarizeBy: none
+		sourceColumn: Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column AutoID
+		dataType: int64
+		isNullable: false
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 81264ee5-1af1-4419-b1ab-24dffc7b8b46
+		summarizeBy: none
+		sourceColumn: AutoID
+
+		annotation SummarizationSetBy = User
+
+	partition CIP_Managers = m
+		mode: directQuery
+		source =
+				let
+				    Source = Sql.Database(Server, Database),
+				    HCIP_CIP_Managers = Source{[Schema=Schema,Item="CIP_Managers"]}[Data]
+				in
+				    HCIP_CIP_Managers
+
+	annotation PBI_ResultType = Table
+

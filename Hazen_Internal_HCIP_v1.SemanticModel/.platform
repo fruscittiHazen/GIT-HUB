@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Hazen_Internal_HCIP_v1"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "1719818e-2cfa-8916-49af-470c5ad2cc26"
+  }
+}

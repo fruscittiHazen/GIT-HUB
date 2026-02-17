@@ -1,0 +1,34 @@
+relationship a258a511-09a0-453e-9e23-b6f41bc333c9
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: CIP_Budget.CalendarYear
+	toColumn: CIP_YearKey.Year
+
+relationship 29b22211-7a57-4e45-b90e-1535ef037bbc
+	crossFilteringBehavior: bothDirections
+	fromColumn: CIP_Prioritize.PrioritizedStartYear
+	toColumn: CIP_YearKey.Year
+
+relationship dfa67376-df44-408f-ad2a-494542e94609
+	crossFilteringBehavior: bothDirections
+	fromColumn: CIP_Prioritize.Method
+	toColumn: CIP_MethodKey.Method
+
+relationship 8453b0b2-cef7-4507-96cb-015907cd9bab
+	fromColumn: CIP_Projects.Program
+	toColumn: CIP_Programs.AutoID
+
+relationship 14d8bfaa-0b37-4ad0-9c16-201bc8a1422b
+	fromColumn: CIP_Projects.ProjectManager
+	toColumn: CIP_Managers.AutoID
+
+relationship 0c2c1e18-29a0-4d59-b9b5-b40bc73c6bd2
+	fromColumn: CIP_Projects.ContractorConsultant
+	toColumn: CIP_Consultants.AutoID
+
+relationship 95221990-8649-40f7-8c5b-c7c87ffdd568
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: CIP_Prioritize.ProjectAutoID
+	toColumn: CIP_Projects.AutoID
+

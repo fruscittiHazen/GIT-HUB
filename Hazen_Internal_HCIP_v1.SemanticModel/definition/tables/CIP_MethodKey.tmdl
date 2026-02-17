@@ -1,0 +1,36 @@
+table CIP_MethodKey
+	lineageTag: 50d368e4-9feb-43e4-9afb-57e9dc13ba45
+
+	column Method
+		dataType: string
+		sourceProviderType: nvarchar(50)
+		lineageTag: de3fa1f6-72f5-4b12-a1f6-5d08e71a8b90
+		summarizeBy: none
+		sourceColumn: Method
+		sortByColumn: DisplayOrder
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column DisplayOrder
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 6393b20a-7318-4242-890c-e4692bc9a8ed
+		summarizeBy: none
+		sourceColumn: DisplayOrder
+
+		annotation SummarizationSetBy = Automatic
+
+	partition CIP_MethodKey-18d9d6ba-eb07-4683-aacd-f7431ffeef07 = m
+		mode: directQuery
+		source =
+				let
+				    Source = Sql.Database(Server, Database),
+				    LV_CIPMethodKey = Source{[Schema=Schema,Item="CIP_MethodKey"]}[Data]
+				in
+				    LV_CIPMethodKey
+
+	annotation PBI_ResultType = Table
+

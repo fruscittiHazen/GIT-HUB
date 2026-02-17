@@ -1,0 +1,156 @@
+table _Measures_CIP
+	lineageTag: 137a3701-224a-4a6b-b986-6c8763b647da
+
+	measure 'Today Year' = ```
+			YEAR([Today]) 
+			```
+		formatString: 0
+		lineageTag: 5a9332ec-9268-4982-8aa1-c863ab7391a0
+
+	measure Selected_CIP_ID = FIRSTNONBLANK(CIP_Projects[AutoID], CIP_Projects[AutoID])
+		formatString: 0
+		lineageTag: 3649e687-05d4-4ec7-8e02-0e863087502b
+
+	measure PrioritizedEndYear = MAX(CIP_Budget[CalendarYear])
+		formatString: 0
+		lineageTag: 86aa0e15-80cb-419e-916c-43557337ac65
+
+	measure 'Project Cost ($ Millions)' = SUM(CIP_Projects[EstimatedCost])/1000000
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: e2b2a2eb-6a2a-4715-a4d2-ae355f1db359
+
+	measure 'Budget with Previous Year Rollover' = SELECTEDVALUE(CIP_Budget[Budget]) + SELECTEDVALUE(CIP_Budget[BudgetRolloverFromPreviousYear])
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: 8b7ae47a-37cf-42c4-aabe-c8b005069be4
+
+	measure Today = TODAY()
+		formatString: General Date
+		lineageTag: d2d5647d-b111-452b-8c28-2d3732556535
+
+	measure BREQuadrantsDividerX = MAX(CIP_Settings[BREQuadrantsDividerX])
+		lineageTag: acda8b42-7281-400b-8416-dc28257dfc64
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure BREQuadrantsDividerY = MAX(CIP_Settings[BREQuadrantsDividerY])
+		lineageTag: c42caf33-1475-4da8-9186-a532df6d7bb7
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure UngroupedProjects = CALCULATE(COUNTROWS(CIP_Projects),ALL(CIP_Projects),ISBLANK(CIP_Projects[Program])) + 0
+		formatString: 0
+		lineageTag: 75c2e2d9-e131-4a34-9dd3-143953d0c5dd
+
+	measure TotalProgramValue = CALCULATE(SUM(CIP_Projects[EstimatedCost]),NOT(ISBLANK(CIP_Projects[Program])))
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: b818dbd0-e324-4c10-be60-6531b8f63bcc
+
+	measure ProjectDetailsMaskColor = IF(ISBLANK(SELECTEDVALUE(CIP_Projects[AutoID])),"#FFFFFF","RGBA(0,0,0,0)")
+		lineageTag: 43930059-1e08-4408-8ea3-aa84b4750d8c
+
+	measure ProjectDetailsMaskText = IF(ISBLANK(SELECTEDVALUE(CIP_Projects[AutoID])),"Select a Project","")
+		lineageTag: d652ae76-1ce1-491d-80b7-d70e26d4ad32
+
+	measure ProjectCostCurveCumulative = ```
+			
+			VAR VisualYear = SELECTEDVALUE(CIP_Years[Year])
+			VAR StartYear = SELECTEDVALUE(CIP_Projects[StartYear])
+			VAR EndYear = SELECTEDVALUE(CIP_Projects[EndYear])
+			
+			VAR CostY1 = SELECTEDVALUE(CIP_Projects[CostY1])
+			VAR CostY2 = SELECTEDVALUE(CIP_Projects[CostY2])
+			VAR CostY3 = SELECTEDVALUE(CIP_Projects[CostY3])
+			VAR CostY4 = SELECTEDVALUE(CIP_Projects[CostY4])
+			VAR CostY5 = SELECTEDVALUE(CIP_Projects[CostY5])
+			
+			VAR CumulativeCost = 
+			IF(VisualYear = StartYear + 0 && VisualYear <= EndYear, CostY1,
+			IF(VisualYear = StartYear + 1 && VisualYear <= EndYear, CostY1 + CostY2,
+			IF(VisualYear = StartYear + 2 && VisualYear <= EndYear, CostY1 + CostY2 + CostY3,
+			IF(VisualYear = StartYear + 3 && VisualYear <= EndYear, CostY1 + CostY2 + CostY3 + CostY4,
+			IF(VisualYear = StartYear + 4 && VisualYear <= EndYear, CostY1 + CostY2 + CostY3 + CostY4 + CostY5,
+			BLANK())))))
+			
+			RETURN CumulativeCost
+			```
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 144426b6-29af-4ae6-8a49-74e1b909fd30
+
+	measure CumulativeSpendingYAxisColor = IF(ISBLANK(SELECTEDVALUE(CIP_Projects[AutoID])),"RGBA(0,0,0,0)","#000000")
+		lineageTag: 48695bdb-94aa-4064-8cba-78f81ce2d4fb
+
+	measure ProjectCostCurveActivity = ```
+			
+			VAR VisualYear = SELECTEDVALUE(CIP_Years[Year])
+			VAR StartYear = SELECTEDVALUE(CIP_Projects[StartYear])
+			VAR EndYear = SELECTEDVALUE(CIP_Projects[EndYear])
+			
+			VAR ActivityY1 = SELECTEDVALUE(CIP_Projects[ActivityY1])
+			VAR ActivityY2 = SELECTEDVALUE(CIP_Projects[ActivityY2])
+			VAR ActivityY3 = SELECTEDVALUE(CIP_Projects[ActivityY3])
+			VAR ActivityY4 = SELECTEDVALUE(CIP_Projects[ActivityY4])
+			VAR ActivityY5 = SELECTEDVALUE(CIP_Projects[ActivityY5])
+			
+			VAR Activity = 
+			IF(VisualYear = StartYear + 0 && VisualYear <= EndYear, ActivityY1,
+			IF(VisualYear = StartYear + 1 && VisualYear <= EndYear, ActivityY2,
+			IF(VisualYear = StartYear + 2 && VisualYear <= EndYear, ActivityY3,
+			IF(VisualYear = StartYear + 3 && VisualYear <= EndYear, ActivityY4,
+			IF(VisualYear = StartYear + 4 && VisualYear <= EndYear, ActivityY5,
+			BLANK())))))
+			
+			RETURN Activity
+			```
+		lineageTag: 579e6df2-59da-43b5-9660-62810bd87af6
+
+	measure ProjectCostCurveCost = ```
+			
+			VAR VisualYear = SELECTEDVALUE(CIP_Years[Year])
+			VAR StartYear = SELECTEDVALUE(CIP_Projects[StartYear])
+			VAR EndYear = SELECTEDVALUE(CIP_Projects[EndYear])
+			
+			VAR CostY1 = SELECTEDVALUE(CIP_Projects[CostY1])
+			VAR CostY2 = SELECTEDVALUE(CIP_Projects[CostY2])
+			VAR CostY3 = SELECTEDVALUE(CIP_Projects[CostY3])
+			VAR CostY4 = SELECTEDVALUE(CIP_Projects[CostY4])
+			VAR CostY5 = SELECTEDVALUE(CIP_Projects[CostY5])
+			
+			VAR Cost = 
+			IF(VisualYear = StartYear + 0 && VisualYear <= EndYear, CostY1,
+			IF(VisualYear = StartYear + 1 && VisualYear <= EndYear, CostY2,
+			IF(VisualYear = StartYear + 2 && VisualYear <= EndYear, CostY3,
+			IF(VisualYear = StartYear + 3 && VisualYear <= EndYear, CostY4,
+			IF(VisualYear = StartYear + 4 && VisualYear <= EndYear, CostY5,
+			BLANK())))))
+			
+			RETURN Cost
+			```
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 5e5bebaf-3cd1-41c9-a2d9-119a1da8dee9
+
+	measure FiveYearProjectScheduled = CALCULATE(COUNTROWS(CIP_Prioritize),NOT(ISBLANK(CIP_Prioritize[PrioritizedStartYear])))
+		formatString: 0
+		lineageTag: ea9cbdad-b41e-4a34-91d4-527071fff69c
+
+	measure FiveYearBudgetRollover = LOOKUPVALUE(CIP_Budget[BudgetRolloverFromPreviousYear],CIP_Budget[SerialYear],5)
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 90395b34-8f13-4569-9cf6-916e45304e97
+
+	column Column
+		isHidden
+		formatString: 0
+		lineageTag: 375a276a-42a5-45c2-9ea5-924544db151d
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Column]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition _Measures_CIP-9a9c60a5-1f43-457e-804e-30af5ee9cc1b = calculated
+		mode: import
+		source = Row("Column", BLANK())
+
+	annotation PBI_Id = db3c6897a831430b9b8f8d41138d6c42
+
+	annotation 436ba87b-9c83-4389-a31b-ebd06a36be98 = {"Expression":""}
+

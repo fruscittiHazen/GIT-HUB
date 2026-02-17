@@ -1,0 +1,28 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBIDesktopVersion = 2.126.927.0 (24.02)
+
+annotation PBI_QueryOrder = ["Server","Database","Schema","CIP_Projects","CIP_Prioritize","CIP_Budget","CIP_MethodKey","CIP_Settings","CIP_Managers","CIP_Programs","CIP_Consultants"]
+
+ref table CIP_Projects
+ref table _Measures_CIP
+ref table CIP_Prioritize
+ref table CIP_YearKey
+ref table CIP_Budget
+ref table CIP_MethodKey
+ref table CIP_Settings
+ref table CIP_Managers
+ref table CIP_Programs
+ref table CIP_Consultants
+ref table CIP_Years
+
+ref cultureInfo en-US
+

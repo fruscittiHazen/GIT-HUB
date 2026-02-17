@@ -1,0 +1,55 @@
+table CIP_Budget
+	lineageTag: 5dcf4dbe-054f-498f-83b8-5688cdbcc7e0
+
+	column SerialYear
+		dataType: int64
+		isNullable: false
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 05630afc-d700-431e-8ff3-a0cfcd212a5a
+		summarizeBy: sum
+		sourceColumn: SerialYear
+
+		annotation SummarizationSetBy = Automatic
+
+	column Budget
+		dataType: double
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		sourceProviderType: float
+		lineageTag: 22b4129a-7a10-4539-9213-417afa56bc35
+		summarizeBy: sum
+		sourceColumn: Budget
+
+		annotation SummarizationSetBy = Automatic
+
+	column CalendarYear
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: b4c525cf-185d-4c91-a89f-0f41311e53f6
+		summarizeBy: none
+		sourceColumn: CalendarYear
+
+		annotation SummarizationSetBy = Automatic
+
+	column BudgetRolloverFromPreviousYear
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: fb245bf7-8685-4514-9e7f-96a54c14797b
+		summarizeBy: sum
+		sourceColumn: BudgetRolloverFromPreviousYear
+
+		annotation SummarizationSetBy = Automatic
+
+	partition CIP_Budget-e7df5f04-5dd4-49bb-8310-8352919100ea = m
+		mode: directQuery
+		source =
+				let
+				    Source = Sql.Database(Server, Database),
+				    LV_CIPBudget = Source{[Schema=Schema,Item="CIP_Budget"]}[Data]
+				in
+				    LV_CIPBudget
+
+	annotation PBI_ResultType = Table
+

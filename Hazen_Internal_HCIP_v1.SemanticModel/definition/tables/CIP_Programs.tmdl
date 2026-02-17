@@ -1,0 +1,43 @@
+table CIP_Programs
+	lineageTag: 04624cb3-b185-4328-8f37-c792e2988842
+
+	column AutoID
+		dataType: int64
+		isNullable: false
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: a097e68e-d618-4e3a-b07c-616066e1303b
+		summarizeBy: none
+		sourceColumn: AutoID
+
+		annotation SummarizationSetBy = User
+
+	column ProgramName
+		dataType: string
+		sourceProviderType: nvarchar(50)
+		lineageTag: 122bdfb2-f28a-4a95-8cd0-43f3e45b2162
+		summarizeBy: none
+		sourceColumn: ProgramName
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProgramDescription
+		dataType: string
+		sourceProviderType: nvarchar(max)
+		lineageTag: e76bb5b8-e571-469b-a238-63340572a51e
+		summarizeBy: none
+		sourceColumn: ProgramDescription
+
+		annotation SummarizationSetBy = Automatic
+
+	partition CIP_Programs = m
+		mode: directQuery
+		source =
+				let
+				    Source = Sql.Database(Server, Database),
+				    HCIP_CIP_Programs = Source{[Schema=Schema,Item="CIP_Programs"]}[Data]
+				in
+				    HCIP_CIP_Programs
+
+	annotation PBI_ResultType = Table
+
