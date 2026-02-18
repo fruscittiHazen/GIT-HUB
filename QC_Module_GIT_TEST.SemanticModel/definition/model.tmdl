@@ -10,6 +10,8 @@ annotation __PBI_TimeIntelligenceEnabled = 1
 
 annotation PBI_QueryOrder = ["AM_AssetRegister","AM_AssetAnalysis","AM_Scenarios","AM_AssetRegister_Fields","AM_AssetRegister_Fields_Groups","AM_AssetRegister_Unpivot","AM_Sessions","AM_Prompts"]
 
+annotation PBI_ProTooling = ["DevMode"]
+
 ref table AM_AssetRegister
 ref table AM_AssetAnalysis
 ref table AM_Scenarios
