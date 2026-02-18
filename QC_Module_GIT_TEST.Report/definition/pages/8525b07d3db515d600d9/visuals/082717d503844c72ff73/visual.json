@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
   "name": "082717d503844c72ff73",
   "position": {
     "x": 801.74545454545455,
@@ -19,7 +19,7 @@
               {
                 "textRuns": [
                   {
-                    "value": "9"
+                    "value": "999"
                   }
                 ],
                 "horizontalTextAlignment": "center"
