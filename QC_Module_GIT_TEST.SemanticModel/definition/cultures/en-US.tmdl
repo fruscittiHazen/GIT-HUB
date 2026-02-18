@@ -20,12 +20,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "condition assessment assigned to": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "ConditionAssessmentAssignedTo": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -149,20 +143,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "asset name": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "name": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "name": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -228,12 +209,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "number of units": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "number of units": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -308,12 +283,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "asset location": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "AssetLocation": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -322,13 +291,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "location": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "location": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -445,34 +407,7 @@ cultureInfo en-US
 			      "State": "Generated",
 			      "Terms": [
 			        {
-			          "ID (PID)": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        },
-			        {
-			          "ID (PID)": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        },
-			        {
 			          "id pid": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "id pid": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -485,13 +420,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "ID": {
-			            "State": "Generated",
-			            "Weight": 0.675
-			          }
-			        },
-			        {
-			          "ID": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.675
 			          }
@@ -535,6 +463,16 @@ cultureInfo en-US
 			            },
 			            "Weight": 0.582
 			          }
+			        },
+			        {
+			          "ID (PID)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -550,37 +488,13 @@ cultureInfo en-US
 			          "HAI AM_AssetRegister": {}
 			        },
 			        {
-			          "HAI AM_AssetRegister": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Asset": {
 			            "LastModified": "2026-01-26T17:38:51.25Z"
 			          }
 			        },
 			        {
-			          "Asset": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Source": {
-			              "Type": "User"
-			            }
-			          }
-			        },
-			        {
 			          "Register": {
 			            "LastModified": "2026-01-26T17:39:13.155Z"
-			          }
-			        },
-			        {
-			          "Register": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Source": {
-			              "Type": "User"
-			            }
 			          }
 			        },
 			        {
@@ -700,12 +614,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "record": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "best": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -730,12 +638,6 @@ cultureInfo en-US
 			          "uaid": {
 			            "State": "Generated"
 			          }
-			        },
-			        {
-			          "uaid": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
 			        }
 			      ]
 			    },
@@ -754,12 +656,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "service type": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "ServiceType": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -768,13 +664,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "type": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "type": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -896,12 +785,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "region": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "province": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -964,12 +847,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "service area": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "service area": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -1097,12 +974,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "facility": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "ability": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -1219,12 +1090,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "location name": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "LocationName": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -1233,13 +1098,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "location": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "location": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -1357,12 +1215,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "process area": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "process area": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -1490,12 +1342,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "sub process area": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "SubProcessArea": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -1619,12 +1465,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "assembly": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "assemblage": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -1737,12 +1577,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "discipline": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "discipline": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -1863,12 +1697,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "asset class": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "AssetClass": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -1877,13 +1705,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "class": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "class": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -2005,12 +1826,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "asset type": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "AssetType": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -2019,13 +1834,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "type": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "type": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -2147,12 +1955,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "status": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "category": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -2239,12 +2041,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "id cmms": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "ID_CMMS": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -2253,13 +2049,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "cmms": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "cmms": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -2317,12 +2106,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "ID financial": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "ID financial": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -2390,12 +2173,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "ID document": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "ID_Document": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -2404,13 +2181,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "document": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "document": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -2532,12 +2302,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "comments hierarchy": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "comment hierarchy": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -2553,13 +2317,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "hierarchy": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "hierarchy": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -2659,12 +2416,6 @@ cultureInfo en-US
 			          "longitude": {
 			            "State": "Generated"
 			          }
-			        },
-			        {
-			          "longitude": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
 			        }
 			      ]
 			    },
@@ -2679,12 +2430,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "latitude": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "latitude": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -2805,12 +2550,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "elevation": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "promotion": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -2907,12 +2646,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "layer name": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "LayerName": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -2921,13 +2654,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "layer": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "layer": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -3049,12 +2775,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "object ID": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "ObjectID": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -3063,13 +2783,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "object": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "object": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -3191,12 +2904,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "comments GI": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "comment GI": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -3212,13 +2919,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "GI": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "GI": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -3240,12 +2940,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "commission date": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "CommissionDate": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -3254,13 +2948,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "date": {
-			            "State": "Generated",
-			            "Weight": 0.7
-			          }
-			        },
-			        {
-			          "date": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.7
 			          }
@@ -3301,12 +2988,6 @@ cultureInfo en-US
 			          "eul": {
 			            "State": "Generated"
 			          }
-			        },
-			        {
-			          "eul": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
 			        }
 			      ]
 			    },
@@ -3325,12 +3006,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "current year": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "CurrentYear": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -3339,13 +3014,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "year": {
-			            "State": "Generated",
-			            "Weight": 0.7
-			          }
-			        },
-			        {
-			          "year": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.7
 			          }
@@ -3418,12 +3086,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "current age": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "CurrentAge": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -3432,13 +3094,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "age": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "age": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -3560,12 +3215,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "percent used implied": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "PercentUsed_Implied": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -3649,12 +3298,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "RUL implied": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "RUL_Implied": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -3678,12 +3321,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "POF age": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "POF_Age": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -3692,13 +3329,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "age": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "age": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -3820,12 +3450,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "percent used low": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "PercentUsed_Low": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -3849,12 +3473,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "percent used high": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "PercentUsed_High": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -3874,12 +3492,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "percent used calculated": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "percent used calculated": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -3967,12 +3579,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "RUL calculated": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "RUL_Calculated": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -3996,12 +3602,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "RUL age": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "RUL_Age": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -4010,13 +3610,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "age": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "age": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -4134,12 +3727,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "RUL condition": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "RUL condition": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -4267,12 +3854,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "replacement year condition": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "ReplacementYear_Condition": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -4281,13 +3862,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "year condition": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "year condition": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -4409,12 +3983,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "replacement year age": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "ReplacementYear_Age": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -4428,21 +3996,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "age": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "year age": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "year age": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -4564,12 +4118,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "replacement year": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "ReplacementYear": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -4603,12 +4151,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "condition assessment method": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "ConditionAssessmentMethod": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -4622,21 +4164,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "method": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "assessment method": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "assessment method": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -4758,12 +4286,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "condition assessment date": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "ConditionAssessmentDate": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -4777,21 +4299,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "date": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.7
-			          }
-			        },
-			        {
 			          "assessment date": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "assessment date": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -4850,12 +4358,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "condition assessment performed by": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "condition assessment performed by": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -4983,12 +4485,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "condition": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "illness": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -5048,7 +4544,9 @@ cultureInfo en-US
 			            "Weight": 0.466
 			          }
 			        },
-			        {},
+			        {
+			          "": {}
+			        },
 			        {
 			          "form": {
 			            "Type": "Noun",
@@ -5096,12 +4594,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "POF static": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "POF_Static": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -5110,13 +4602,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "static": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "static": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -5178,12 +4663,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "COF static": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "COF_Static": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -5192,13 +4671,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "static": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "static": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -5260,12 +4732,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "risk static": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Risk_Static": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -5274,13 +4740,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "static": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "static": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -5338,12 +4797,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "comment AM": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "comment AM": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -5431,12 +4884,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "comments operator": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "comment operator": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -5452,13 +4899,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "operator": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "operator": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -5560,12 +5000,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "unit cost ID": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "UnitCostID": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -5579,21 +5013,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "cost": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "cost ID": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "cost ID": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -5715,12 +5135,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "unit cost": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "UnitCost": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -5729,13 +5143,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "cost": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "cost": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -5857,12 +5264,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "unit": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "module": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -5959,12 +5360,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "replacement cost static": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "ReplacementCost_Static": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -5978,21 +5373,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "static": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "cost static": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "cost static": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -6054,12 +5435,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "failure mode": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "FailureMode": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -6068,13 +5443,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "mode": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "mode": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -6196,12 +5564,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "comment financial": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Comments_Financial": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -6285,12 +5647,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "manufacturer": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "builder": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -6312,16 +5668,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "constructer": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.491
-			          }
-			        },
-			        {
-			          "constructor": {
 			            "Type": "Noun",
 			            "State": "Suggested",
 			            "Source": {
@@ -6393,12 +5739,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "model": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "model": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -6519,12 +5859,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "serial number": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "SerialNumber": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -6554,12 +5888,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "material": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "material": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -6626,12 +5954,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "length": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "length": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -6752,12 +6074,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "width": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "breadth": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -6824,12 +6140,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "height depth": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "HeightDepth": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -6838,13 +6148,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "depth": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "depth": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -6966,12 +6269,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "diameter": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "breadth": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -7014,12 +6311,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "area": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "area": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -7110,12 +6401,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "volume": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "capacity": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -7192,12 +6477,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "duty head": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "DutyHead": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -7206,13 +6485,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "head": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "head": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -7334,12 +6606,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "duty flow": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "DutyFlow": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -7348,13 +6614,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "flow": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "flow": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -7476,12 +6735,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "power": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "authority": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -7598,12 +6851,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "clear span": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "ClearSpan": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -7612,13 +6859,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "span": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "span": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -7740,12 +6980,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "signal in out": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "SignalInOut": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -7765,21 +6999,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "in out": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "signal": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "signal": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -7883,11 +7103,6 @@ cultureInfo en-US
 			            },
 			            "Weight": 0.476
 			          }
-			        },
-			        {
-			          "out": {
-			            "State": "Generated"
-			          }
 			        }
 			      ]
 			    },
@@ -7906,12 +7121,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "confined space": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "ConfinedSpace": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -7920,13 +7129,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "space": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "space": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -8008,12 +7210,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "physical data date": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "PhysicalDataDate": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -8027,21 +7223,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "date": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.7
-			          }
-			        },
-			        {
 			          "data date": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "data date": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -8164,12 +7346,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "rehab date": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "RehabDate": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -8178,13 +7354,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "date": {
-			            "State": "Generated",
-			            "Weight": 0.7
-			          }
-			        },
-			        {
-			          "date": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.7
 			          }
@@ -8227,12 +7396,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "size 1": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Size1": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -8252,12 +7415,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "size 2": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "size 2": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -8285,12 +7442,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "size 3": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Size3": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -8310,12 +7461,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "comments physical functional": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "comments physical functional": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -8350,12 +7495,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "project type ID": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "ProjectTypeID": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -8369,34 +7508,13 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "type": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "project type": {
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
 			        },
 			        {
-			          "project type": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "type ID": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "type ID": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -8518,12 +7636,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "URL report": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "URL_Report": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -8532,13 +7644,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "report": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "report": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -8660,12 +7765,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "URL manual": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "URL_Manual": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -8674,13 +7773,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "manual": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "manual": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -8802,12 +7894,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "filter string AS": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "FilterStringAS": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -8816,13 +7902,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "string AS": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "string AS": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -8941,12 +8020,6 @@ cultureInfo en-US
 			          "HAI AM_AssetAnalysis": {
 			            "State": "Generated"
 			          }
-			        },
-			        {
-			          "HAI AM_AssetAnalysis": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
 			        }
 			      ]
 			    },
@@ -8961,12 +8034,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "uaid": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "uaid": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        }
@@ -8987,12 +8054,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "scenario ID": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "ScenarioID": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -9001,13 +8062,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "scenario": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "scenario": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -9092,7 +8146,9 @@ cultureInfo en-US
 			            "Weight": 0.491
 			          }
 			        },
-			        {},
+			        {
+			          "": {}
+			        },
 			        {
 			          "set-up": {
 			            "Type": "Noun",
@@ -9118,12 +8174,6 @@ cultureInfo en-US
 			          "pof": {
 			            "State": "Generated"
 			          }
-			        },
-			        {
-			          "pof": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
 			        }
 			      ]
 			    },
@@ -9138,12 +8188,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "cof": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "cof": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        }
@@ -9162,12 +8206,6 @@ cultureInfo en-US
 			          "pofcof": {
 			            "State": "Generated"
 			          }
-			        },
-			        {
-			          "pofcof": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
 			        }
 			      ]
 			    },
@@ -9182,12 +8220,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "risk": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "risk": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -9308,12 +8340,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "POF rounded": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "POFRounded": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -9337,12 +8363,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "COF rounded": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "COFRounded": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -9362,12 +8382,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "risk rounded": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "risk rounded": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -9495,12 +8509,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "replacement cost": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "ReplacementCost": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -9509,13 +8517,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "cost": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "cost": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -9634,12 +8635,6 @@ cultureInfo en-US
 			          "HAI AM_Scenario": {
 			            "State": "Generated"
 			          }
-			        },
-			        {
-			          "HAI AM_Scenario": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
 			        }
 			      ]
 			    },
@@ -9658,12 +8653,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "scenario ID": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "ScenarioID": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -9672,13 +8661,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "scenario": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "scenario": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -9763,7 +8745,9 @@ cultureInfo en-US
 			            "Weight": 0.491
 			          }
 			        },
-			        {},
+			        {
+			          "": {}
+			        },
 			        {
 			          "set-up": {
 			            "Type": "Noun",
@@ -9787,12 +8771,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "name": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "name": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -9840,12 +8818,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "description": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "description": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -9922,12 +8894,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "created by": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "created by": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -10035,12 +9001,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "created date": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "CreatedDate": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -10049,13 +9009,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "date": {
-			            "State": "Generated",
-			            "Weight": 0.7
-			          }
-			        },
-			        {
-			          "date": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.7
 			          }
@@ -10098,12 +9051,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "modified date": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "ModifiedDate": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -10112,13 +9059,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "date": {
-			            "State": "Generated",
-			            "Weight": 0.7
-			          }
-			        },
-			        {
-			          "date": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.7
 			          }
@@ -10161,12 +9101,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "asset analysis replacement cost": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "AssetAnalysis_ReplacementCost": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -10180,21 +9114,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "cost": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "analysis replacement cost": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "analysis replacement cost": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -10316,12 +9236,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "asset analysis replacement year": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "AssetAnalysis_ReplacementYear": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -10330,13 +9244,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "analysis replacement year": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "analysis replacement year": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -10378,12 +9285,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "asset analysis POFCOF risk": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "AssetAnalysis_POFCOFRisk": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -10397,21 +9298,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "POFCOF risk": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "analysis POFCOF risk": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "analysis POFCOF risk": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -10530,12 +9417,6 @@ cultureInfo en-US
 			          "HAI AM_AssetRegister_Field": {
 			            "State": "Generated"
 			          }
-			        },
-			        {
-			          "HAI AM_AssetRegister_Field": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
 			        }
 			      ]
 			    },
@@ -10550,12 +9431,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "ordinal": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "ordinal": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        }
@@ -10576,12 +9451,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "field name": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "FieldName": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -10590,13 +9459,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "field": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "field": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -10718,12 +9580,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "field name friendly": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "FieldName_Friendly": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -10737,21 +9593,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "friendly": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "name friendly": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "name friendly": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -10869,12 +9711,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "group name": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "group name": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -11002,12 +9838,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "required": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "obligatory": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -11104,12 +9934,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "m selected field name": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "m_SelectedFieldName": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -11173,12 +9997,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "m selected UAI ds": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "m_SelectedUAIDs": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -11202,12 +10020,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "selected field name display": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "SelectedFieldName_Display": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -11221,21 +10033,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "name display": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "field name display": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "field name display": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -11354,12 +10152,6 @@ cultureInfo en-US
 			          "HAI AM_AssetRegister_Fields_Group": {
 			            "State": "Generated"
 			          }
-			        },
-			        {
-			          "HAI AM_AssetRegister_Fields_Group": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
 			        }
 			      ]
 			    },
@@ -11376,12 +10168,6 @@ cultureInfo en-US
 			          "ordinal": {
 			            "State": "Generated"
 			          }
-			        },
-			        {
-			          "ordinal": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
 			        }
 			      ]
 			    },
@@ -11396,12 +10182,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "group name": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "group name": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -11529,12 +10309,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "group visibility": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "GroupVisibility": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -11543,13 +10317,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "visibility": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "visibility": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -11671,12 +10438,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "show summary": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Show_Summary": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -11685,13 +10446,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "summary": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "summary": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -11813,12 +10567,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "show asset details": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Show_AssetDetails": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -11832,21 +10580,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "details": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "asset details": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "asset details": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -11968,12 +10702,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "show condition details": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Show_ConditionDetails": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -11987,21 +10715,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "details": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "condition details": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "condition details": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -12123,12 +10837,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "show physical details": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Show_PhysicalDetails": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -12142,21 +10850,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "details": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "physical details": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "physical details": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -12278,12 +10972,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "show resources": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Show_Resources": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -12292,13 +10980,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "resources": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "resources": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -12420,12 +11101,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "show other": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Show_Other": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -12445,12 +11120,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "UAI ds concat quoted": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "UAI ds concat quoted": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -12475,12 +11144,6 @@ cultureInfo en-US
 			          "HAI AM_AssetRegister_Unpivot": {
 			            "State": "Generated"
 			          }
-			        },
-			        {
-			          "HAI AM_AssetRegister_Unpivot": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
 			        }
 			      ]
 			    },
@@ -12498,12 +11161,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "uaid": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "uaid": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        }
@@ -12527,12 +11184,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "field name": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "FieldName": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -12541,13 +11192,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "field": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "field": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -12665,12 +11309,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "field value": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "field value": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
