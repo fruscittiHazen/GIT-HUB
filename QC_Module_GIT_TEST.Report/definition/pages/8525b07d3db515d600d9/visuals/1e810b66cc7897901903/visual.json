@@ -1,12 +1,12 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
   "name": "1e810b66cc7897901903",
   "position": {
-    "x": 0,
-    "y": 325.4545454545455,
+    "x": 141.88884792729829,
+    "y": 412.91989519480626,
     "z": 0,
-    "height": 80,
-    "width": 173,
+    "height": 79.93754879000781,
+    "width": 172.8649492583919,
     "tabOrder": 1000
   },
   "visual": {
@@ -144,5 +144,23 @@
     },
     "drillFilterOtherVisuals": true
   },
-  "parentGroupName": "8f642b4d8eea84207c37"
+  "parentGroupName": "8f642b4d8eea84207c37",
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "f3c2a5a4d721aae8df57",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "AM_AssetRegister"
+              }
+            },
+            "Property": "Comments_PhysicalFunctional"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
 }
