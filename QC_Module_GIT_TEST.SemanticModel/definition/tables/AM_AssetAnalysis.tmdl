@@ -1,6 +1,10 @@
 table AM_AssetAnalysis
 	lineageTag: 24b3f7ce-f762-4abd-bbdd-697f8f6a8787
 
+	measure NumberOfUnits = COUNT(AM_AssetAnalysis[ScenarioID])
+		formatString: 0
+		lineageTag: 4f5b432b-c141-437e-88fb-8e4d1a9774d7
+
 	column UAID
 		dataType: string
 		isNullable: false
