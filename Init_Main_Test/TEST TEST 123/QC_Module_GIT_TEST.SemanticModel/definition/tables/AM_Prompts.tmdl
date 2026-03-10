@@ -1,0 +1,45 @@
+table AM_Prompts
+	lineageTag: 807c44be-efab-4052-ad1d-9f2314560de0
+
+	column AutoID
+		dataType: int64
+		isNullable: false
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: ba3fe805-c9a0-4bae-b726-37cd55af2b76
+		summarizeBy: count
+		sourceColumn: AutoID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Message
+		dataType: string
+		sourceProviderType: nvarchar(max)
+		lineageTag: d0729dd3-6fa4-44c4-8653-0565a2d1d74b
+		summarizeBy: none
+		sourceColumn: Message
+
+		annotation SummarizationSetBy = Automatic
+
+	column PromptType
+		dataType: string
+		sourceProviderType: nvarchar(50)
+		lineageTag: e8ab2ff7-3eba-46f9-8816-3e0bbd46f2bc
+		summarizeBy: none
+		sourceColumn: PromptType
+
+		annotation SummarizationSetBy = Automatic
+
+	partition AM_Prompts = m
+		mode: directQuery
+		source =
+				let
+				    Source = Sql.Database("hazen-gissql.database.windows.net", "CO_IMDSS"),
+				    HAI_AM_AssetAnalysis = Source{[Schema="HAI",Item="AM_Prompts"]}[Data]
+				in
+				    HAI_AM_AssetAnalysis
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
