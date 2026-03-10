@@ -1,0 +1,43 @@
+table AM_AssetRegister_Unpivot
+	lineageTag: 72ff2ace-0b96-4f16-b12a-3e29f7329653
+
+	column UAID
+		dataType: string
+		sourceProviderType: nvarchar(250)
+		lineageTag: 66f8c1b1-fb27-4989-9808-f36f91a1f99f
+		summarizeBy: none
+		sourceColumn: UAID
+
+		annotation SummarizationSetBy = Automatic
+
+	column FieldName
+		dataType: string
+		sourceProviderType: nvarchar(250)
+		lineageTag: 2f781c1c-f54f-4a22-b50d-c58e9ff8ea74
+		summarizeBy: none
+		sourceColumn: FieldName
+
+		annotation SummarizationSetBy = Automatic
+
+	column FieldValue
+		dataType: string
+		sourceProviderType: nvarchar(max)
+		lineageTag: 65a55bcf-4231-487c-8a18-9bc7415172bf
+		summarizeBy: none
+		sourceColumn: FieldValue
+
+		annotation SummarizationSetBy = Automatic
+
+	partition AM_AssetRegister_Unpivot = m
+		mode: directQuery
+		source =
+				let
+				    Source = Sql.Database("hazen-gissql.database.windows.net", "CO_IMDSS"),
+				    HAI_AM_AssetRegister_Fields_Groups = Source{[Schema="HAI",Item="AM_AssetRegister_Unpivot"]}[Data]
+				in
+				    HAI_AM_AssetRegister_Fields_Groups
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
