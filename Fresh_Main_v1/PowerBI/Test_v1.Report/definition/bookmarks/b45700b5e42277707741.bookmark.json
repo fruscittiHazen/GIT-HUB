@@ -1,0 +1,5915 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/2.0.0/schema.json",
+  "displayName": "Resources",
+  "name": "b45700b5e42277707741",
+  "options": {
+    "applyOnlyToTargetVisuals": true,
+    "targetVisualNames": [
+      "bd840f2e5e5755916019",
+      "4aa9c84d0519b0413838",
+      "16f2c70540ce71800722",
+      "6ed4c3d0c603b1080507",
+      "8f642b4d8eea84207c37",
+      "a95ed5c15ee65f4346b9",
+      "9105eef59e54ccae5a36",
+      "9996e41207d90ba88241",
+      "68af2e80538ea3973349",
+      "017cda77c790c04e7647",
+      "dd51de690610892083bd",
+      "1122c263053430e1508d",
+      "6ba08a9a9ea060e152ea",
+      "fa7bd3b0c29bc8053055",
+      "9cbabc87d6444375c31c",
+      "5e7d7d736ae4e78b0ea4",
+      "68b3dc23ec5938e0066e",
+      "2d547a963ec3cee42a33",
+      "58bf43f0072b90629c94",
+      "0d4ba92900858430c02c",
+      "a94311688301be304aa5",
+      "4b52883fa47ab0913d06",
+      "69b2cd344b85348eec13",
+      "4c882ddd20db8d3e7ddc",
+      "c40aa5d7e405a28369be",
+      "41e2a34e94010add040d",
+      "5655fb3d00300a188454",
+      "c2c62a3405b5820960a2",
+      "9f597e47b283e4cddb52",
+      "1269960f417a2e84375d",
+      "70fbb847525a50379b60",
+      "529c0a5b027debd80d50",
+      "19433603de5dadb96dd4",
+      "3b3eeff4a0099c2aac2d",
+      "3968059d32a50d568ed1",
+      "962c789c6d085185e4d0",
+      "6496bff0887c9dd38317",
+      "272637072a59cdc7478d",
+      "b64ec76b01b001b66190",
+      "12c2dc9ce65240aecd67",
+      "221f20e9100b47e0e7b6",
+      "7ec39a50109d7c1013b8",
+      "4a2be7d2910c28e84072",
+      "16bc4c5562d88ca5a05b",
+      "6951ee7080b275947e27",
+      "43386fb89c5003396029",
+      "1722213492cb1e19a68a",
+      "e7a629fad64930b44661",
+      "23cf239720a95d02eb8d",
+      "8d622c2ba030db43b935",
+      "0479481e40a8a980412a",
+      "050239ac9e10b1925b0c",
+      "d9f71db4372a53d64cc6",
+      "f8da51189896cb5c8008",
+      "92ecf340e635d80bb3b3",
+      "24a52d21003242e936d7",
+      "e4e70660dc910b19548e",
+      "355b79b36c14d9375192",
+      "06c43767247906e87ea2",
+      "eb342c09b3b139cb27c4",
+      "304d0df5ccd59ac1d8c3",
+      "8c229d940b1d2497c854",
+      "aeaf41c9b00504768055",
+      "0ea14500a56a9880b20e",
+      "c62b5544d3909a730903",
+      "8ecb1402579b904500d0",
+      "6da34cfc0b8e440a2109",
+      "8b9053b3d9b77069c218",
+      "2450eee2cca0f757cb90",
+      "85085d32915098567574",
+      "7ea8636ee0960d05e00d",
+      "825c4ef26e244878425e",
+      "837c7402092ea4396147",
+      "d16119e6eb9de16b3a03",
+      "4adc8c40a50c79d5ab69",
+      "981bbff4d3c0079d756e",
+      "c5ea267aeb8e5433a86b",
+      "6245495a104913b02b3a",
+      "a5513debccb3a8a08e55",
+      "1cfbbd67c19e083e9c34",
+      "1e810b66cc7897901903",
+      "0fc71ebde4c359e091c0",
+      "cde322b3780d770c0dec",
+      "277a49701cc9ac21d7b4",
+      "eb2a4d48cebce61eb1cb",
+      "6ed12499997d44564a0a",
+      "6a0eaead075ad62d41df",
+      "5c5357324add3ecae116",
+      "bc7fbd10d71487bd9648",
+      "d2cb55ff9cfed6445595",
+      "d7f5df3cdeaa7b09ffef",
+      "197d38d416a1f074a7fe",
+      "f166f6e39f821c4d87cc",
+      "a3697b11fb10f553f781",
+      "6177e68c9874bf230cd5",
+      "dc606a8a1fb2fc274d2a",
+      "dde7e175ded6f4daa7f6",
+      "e328b1551f08b74e1cec",
+      "b86574177b3f8dca5372",
+      "9e7b8bc9675c5d8c17f6",
+      "efb0e88f655012820f5e",
+      "c9b6c7e0ee605477e750",
+      "bdb533505d3aeacec2ee",
+      "bad2f178cf075831ab6e",
+      "f1246993beb39ab63d34",
+      "26ba3540d638bd3330e6",
+      "10269edf469f110f12e9",
+      "322ddc0f340eebdd1075",
+      "c4b78bf0b860bc20c934",
+      "c3d4a5b7008245476185",
+      "e13f4c425343424d0592",
+      "fecf907ea10ab6650cb0",
+      "df30f90b9c42729c98ab",
+      "ed78758792b0d0b59521",
+      "f3a491044095096a4c0e",
+      "70613bc4822adaa58047",
+      "0cd902cb2788b1731907",
+      "2e0365114c0053444bd2",
+      "110f2ec546ee4925d69a",
+      "e07a4955c92234bd30c6",
+      "1fb1ca58a90b902a4e0e"
+    ],
+    "suppressData": true
+  },
+  "explorationState": {
+    "version": "1.3",
+    "activeSection": "8525b07d3db515d600d9",
+    "sections": {
+      "8525b07d3db515d600d9": {
+        "visualContainers": {
+          "9105eef59e54ccae5a36": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "9480dd716804741cf44e": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "147ed9a9e9e1cb379c70",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UAID"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "322cfad97430739cefa5",
+                  "type": "Advanced",
+                  "expression": {
+                    "Aggregation": {
+                      "Expression": {
+                        "Column": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "AM_AssetRegister_Unpivot"
+                            }
+                          },
+                          "Property": "FieldValue"
+                        }
+                      },
+                      "Function": 3
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "aca23e63cda0358c77f7",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister_Fields"
+                        }
+                      },
+                      "Property": "FieldName"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "pivotTable",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UAID"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Rows": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UAID"
+                    }
+                  }
+                ],
+                "Columns": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister_Fields"
+                        }
+                      },
+                      "Property": "FieldName"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "c3d4a5b7008245476185": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {},
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "e13f4c425343424d0592": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {},
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "fecf907ea10ab6650cb0": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {},
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "df30f90b9c42729c98ab": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "ed78758792b0d0b59521": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "f3a491044095096a4c0e": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {},
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "70613bc4822adaa58047": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "0cd902cb2788b1731907": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {},
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "2e0365114c0053444bd2": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "110f2ec546ee4925d69a": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {},
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "e07a4955c92234bd30c6": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "1fb1ca58a90b902a4e0e": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "68af2e80538ea3973349": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "d6fa0b23a883066eebdd",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UAID"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "textFilter25A4896A83E0487089E2B90C9AE57C8A",
+              "objects": {}
+            }
+          },
+          "017cda77c790c04e7647": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "100292202bc0b53d018d",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ReplacementYear"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "fb5060cbd0b7176e2e83",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "CommissionDate"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "c6c261ffd67b0d2b1d17",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Manufacturer"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "0a0eef89b3823b00b825",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ServiceType"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ServiceType"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "dd51de690610892083bd": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "f9623cf32f52efa41a9a",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "372daadab2850546cdd1",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Condition"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Condition"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "1122c263053430e1508d": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "3f72f0cfcf5aa3b11771",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Region"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Region"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "6ba08a9a9ea060e152ea": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "9b8228d0a5871c9214bd",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ServiceArea"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ServiceArea"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "fa7bd3b0c29bc8053055": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "92c746a1b546c1d30ad7",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Facility"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Facility"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "9cbabc87d6444375c31c": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "f2b27953147402e47020",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ProcessArea"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "b870b6d554085d8469d8",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "LocationName"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "LocationName"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "5e7d7d736ae4e78b0ea4": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "dc4ff00026d8a9dae22a",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ReplacementYear"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "4764e1b6dfeec0a29685",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "CommissionDate"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "fc6dbd04412928619a73",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Manufacturer"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "3b76e3acbbd11d6d0aa1",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Assembly"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Assembly"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "68b3dc23ec5938e0066e": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "4f48e3de5c2529ed69d0",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ProcessArea"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ProcessArea"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "2d547a963ec3cee42a33": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "245a9bf781fba84ff49b",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "AssetName"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "textFilter25A4896A83E0487089E2B90C9AE57C8A",
+              "objects": {}
+            }
+          },
+          "58bf43f0072b90629c94": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "1a8e179d720baf3017de",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "AssetName"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "6591ef51e424fd9c6dc3",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "AssetClass"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "AssetClass"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "0d4ba92900858430c02c": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "305fe5d64371b7348538",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "SubProcessArea"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "SubProcessArea"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "a94311688301be304aa5": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "dfbf0ed7f7eeec9b577c",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "AssetType"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "AssetType"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "4b52883fa47ab0913d06": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "a1c9688b00ab70e70a16",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Discipline"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Discipline"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "69b2cd344b85348eec13": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "3d33fb0ccc5ed65d95d9",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ReplacementYear"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "7656443ac185761036a3",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "CommissionDate"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "orderBy": [
+                {
+                  "Direction": 1,
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "CommissionDate"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "CommissionDate"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "4c882ddd20db8d3e7ddc": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "6184cddaa3913b08fe91",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "AssetName"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "ff4a2d43126cbe02f42c",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "EUL"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "EUL"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "c40aa5d7e405a28369be": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "cc2663a7c0131ea3ee85",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "AssetName"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "4d13b2e0fa554a1ce2af",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "RUL_Calculated"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "RUL_Calculated"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "41e2a34e94010add040d": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "09f06326bcfe430e07c1",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ReplacementYear"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ReplacementYear"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "146601325041a553089c": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "6d5db38557a7695ec40d": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "b438624d389663d00907": {
+            "singleVisual": {
+              "visualType": "textSlicer",
+              "objects": {}
+            }
+          },
+          "581b1e51607956f31285": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "5655fb3d00300a188454": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "de6cfde9243437a36ccb",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Discipline"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "1049736c8d8609101eb8",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Status"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Status"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "c2c62a3405b5820960a2": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "4e879bfabfc504682d39",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Discipline"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "ec1acea4dcb18a70f6f3",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "AssetLocation"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "AssetLocation"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "9f597e47b283e4cddb52": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "c47bd6039af7bdb61b60",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Latitude"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Latitude"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "1269960f417a2e84375d": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "edd6110df6e6c13a7144",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "f31fc5dc8269bf160349",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "FailureMode"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "FailureMode"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "70fbb847525a50379b60": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "dee8f7da38575f9152b2",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Longitude"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Longitude"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "529c0a5b027debd80d50": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "68be8d14038b4f74e469",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "19433603de5dadb96dd4": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "ceedaeaa03294e3543a1",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCost"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCost"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "3b3eeff4a0099c2aac2d": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "d5f1270d1d8a3a547348",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "b68881f9edd170218474",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ReplacementCost_Static"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ReplacementCost_Static"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "3968059d32a50d568ed1": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "68c43c7a8d067d001578",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "e9200b0f919b5f9afef0",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "NumberOfUnits"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "NumberOfUnits"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "962c789c6d085185e4d0": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "abed4f614a7c1d326a1d",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "153740105227787e82c3",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Unit"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Unit"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "6496bff0887c9dd38317": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "c76b174b5b0f59cd56db",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "0d557bc0888f1f1bcf8d",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ProjectTypeID"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ProjectTypeID"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "272637072a59cdc7478d": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "c214b913f13c5ac12825",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Discipline"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "fc115807d0c56993b8e2",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "CurrentYear"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "CurrentYear"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "b64ec76b01b001b66190": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "1711f82d38e18ef52c56",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "PercentUsed_Implied"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "PercentUsed_Implied"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "12c2dc9ce65240aecd67": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "9b378ef2705158798134",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "POF_Age"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "POF_Age"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "221f20e9100b47e0e7b6": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "c5ec662959c3c9ac9436",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "RUL_Implied"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "RUL_Implied"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "7ec39a50109d7c1013b8": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "104756f73e10a5033ec3",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "PercentUsed_Low"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "PercentUsed_Low"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "4a2be7d2910c28e84072": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "2fc9da02b04aab8c96d3",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Discipline"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "515e188de6a801da29f4",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "CurrentAge"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "CurrentAge"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "16bc4c5562d88ca5a05b": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "8bc27438d0667ca85c88",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "7c83966ed4353b1e5820",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "RUL_Age"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "RUL_Age"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "6951ee7080b275947e27": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "ed9b3afa0b36f1f50a90",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "4860ff9a31ef02c4e9a1",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "PercentUsed_Calculated"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "PercentUsed_Calculated"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "43386fb89c5003396029": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "1127855cbbfba7aee1c1",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "ea95c2e3aec1b3b60328",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "PercentUsed_High"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "PercentUsed_High"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "1722213492cb1e19a68a": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "d5ea7fcac48f22c0f647",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "24052236995e615b3bc3",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ConditionAssessmentPerformedBy"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ConditionAssessmentPerformedBy"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "e7a629fad64930b44661": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "bee3d1672d4982c8ae14",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "c8598d978f1923446418",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Risk_Static"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Risk_Static"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "23cf239720a95d02eb8d": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "02d9208f94a58403cd22",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "9e067175629ab6c1bf5b",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "COF_Static"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "COF_Static"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "8d622c2ba030db43b935": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "f3d987f2133e1ac4f8c1",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "d0b77f66feb848aef3c9",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "RehabDate"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "startDate": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "datetime'2025-10-02T00:00:00'"
+                            }
+                          }
+                        },
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "orderBy": [
+                {
+                  "Direction": 1,
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "RehabDate"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "RehabDate"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "0479481e40a8a980412a": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "3389101090d682d0af0f",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "4d6f1373ca53046abb5a",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "POF_Static"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "POF_Static"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "050239ac9e10b1925b0c": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "fcc179a1b4435e3ae4dd",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "b44aaaba3cc36c8a5cc8",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ConditionAssessmentAssignedTo"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ConditionAssessmentAssignedTo"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "d9f71db4372a53d64cc6": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "c3d93d8f02d7cce781e9",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "16e78408a4461b9a5d61",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ConditionAssessmentDate"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "orderBy": [
+                {
+                  "Direction": 1,
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ConditionAssessmentDate"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ConditionAssessmentDate"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "f8da51189896cb5c8008": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "164923a9e3c76d60cb77",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "7facf151c37720af4fd2",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ConditionAssessmentMethod"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ConditionAssessmentMethod"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "92ecf340e635d80bb3b3": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "83d3a59ea75c742f905f",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "42e86ea18880238bcbd8",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ReplacementYear_Age"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ReplacementYear_Age"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "24a52d21003242e936d7": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "bcec2440acc60583f0b9",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "a26767698485b063c74e",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ReplacementYear_Condition"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ReplacementYear_Condition"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "e4e70660dc910b19548e": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "338045b1ad2df0bc95f6",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "02cfc2e349a40cab987b",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "RUL_Condition"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "RUL_Condition"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "355b79b36c14d9375192": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "a384dff008b9c4dfd9f8",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Discipline"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "c373061cf8101320d66e",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "LayerName"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "LayerName"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "06c43767247906e87ea2": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "fb1f150f20ef51e21690",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Elevation"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Elevation"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "eb342c09b3b139cb27c4": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "796ade99b817d73b5ee3",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Width"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Width"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "304d0df5ccd59ac1d8c3": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "8e1162482094af809a74",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Model"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Model"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "8c229d940b1d2497c854": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "821394e99fb04d33e4d5",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ClearSpan"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ClearSpan"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "aeaf41c9b00504768055": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "4170578f0c90f7d8a2a9",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ConfinedSpace"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ConfinedSpace"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "0ea14500a56a9880b20e": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "dfbe6eafc6cda88ab7dc",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "PhysicalDataDate"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "orderBy": [
+                {
+                  "Direction": 1,
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "PhysicalDataDate"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "PhysicalDataDate"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "c62b5544d3909a730903": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "fd381aecf0ea5ceaea1f",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Size1"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Size1"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "8ecb1402579b904500d0": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "3d75b59625d39649f44d",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Size2"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Size2"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "6da34cfc0b8e440a2109": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "bacf2f91cb3d86f0b583",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Size3"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Size3"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "8b9053b3d9b77069c218": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "43f58e5953342fdbb502",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "SignalInOut"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "SignalInOut"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "2450eee2cca0f757cb90": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "aec612bafd8f136ec17e",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "SerialNumber"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "SerialNumber"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "85085d32915098567574": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "8ef960b2908143f615cf",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Power"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Power"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "7ea8636ee0960d05e00d": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "f7629cc207c6ec7f4328",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "DutyFlow"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "DutyFlow"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "825c4ef26e244878425e": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "f12500048ce6dfdbdd35",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "DutyHead"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "DutyHead"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "837c7402092ea4396147": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "567a1b67055937316704",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Volume"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Volume"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "d16119e6eb9de16b3a03": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "de6f2cb9711178f78393",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Area"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Area"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "4adc8c40a50c79d5ab69": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "59705e055ac35fcf6920",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Diameter"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Diameter"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "981bbff4d3c0079d756e": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "ac1d146b7f466019f3ac",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "d6516804b6e071068622",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "HeightDepth"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "HeightDepth"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "c5ea267aeb8e5433a86b": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "6ea712dbdd00d6388ea8",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "040e626f1a88b999098a",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Length"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Length"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "6245495a104913b02b3a": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "f42211fea96663cffea7",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "0210638f3e8e55447fa6",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Manufacturer"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Manufacturer"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "a5513debccb3a8a08e55": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "4a4616bcf7c19cfd38e4",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "79a948f015ca70235aa2",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Material"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Material"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "1cfbbd67c19e083e9c34": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "c01ddba03404381aea9b",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "63e9e0902eb65a10c345",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "URL_Report"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "URL_Report"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "1e810b66cc7897901903": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "588f9acf6e588f9dcadf",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Comments_PhysicalFunctional"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "textFilter25A4896A83E0487089E2B90C9AE57C8A",
+              "objects": {}
+            }
+          },
+          "0fc71ebde4c359e091c0": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "7d2711ad74a19b23ae99",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Comments_Financial"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "textFilter25A4896A83E0487089E2B90C9AE57C8A",
+              "objects": {}
+            }
+          },
+          "cde322b3780d770c0dec": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "ba37bff2782864c84dc8",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Comments_Operator"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "textFilter25A4896A83E0487089E2B90C9AE57C8A",
+              "objects": {}
+            }
+          },
+          "277a49701cc9ac21d7b4": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "cf84ee66fbb47e4d7e72",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Comments_AM"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "textFilter25A4896A83E0487089E2B90C9AE57C8A",
+              "objects": {}
+            }
+          },
+          "eb2a4d48cebce61eb1cb": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "80497a30da1b5576aa62",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Comments_GIS"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "textFilter25A4896A83E0487089E2B90C9AE57C8A",
+              "objects": {}
+            }
+          },
+          "6ed12499997d44564a0a": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "4a05a2fcbd3a5052cfea",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "1205650bec380dc6a0bf",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ObjectID"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ObjectID"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "6a0eaead075ad62d41df": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "d557fc704819c678441c",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "a59e2179ebaefc6a3a51",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "URL_Manual"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "URL_Manual"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "5c5357324add3ecae116": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "5160b2ea91164d678df9",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "Comments_Hierarchy"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "textFilter25A4896A83E0487089E2B90C9AE57C8A",
+              "objects": {}
+            }
+          },
+          "bc7fbd10d71487bd9648": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "add20c16929dd4d77571",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "2c35551ea66262a16bce",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ID_PID"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ID_PID"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "d2cb55ff9cfed6445595": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "9c3b8b5f056f3792cb3c",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "432da5b6a5302563b736",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ID_CMMS"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ID_CMMS"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "d7f5df3cdeaa7b09ffef": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "52f0819b12fe5266a1ae",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "9fcb9467ba2c4b3584da",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ID_Financial"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ID_Financial"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "197d38d416a1f074a7fe": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "2883189f9ac7c9fb4f0e",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "c29de7eea0fe956942e6",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ID_Document"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "ID_Document"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "abd7951756f91e4f4c31": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "37d62fd681d0b299c083": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
+            }
+          },
+          "af16c426ea72534474e7": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "2d7aa6aa3887a0f0854b": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "e94bb0945a36e6463fa4": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "fb947828359cae461908": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "a3697b11fb10f553f781": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "6177e68c9874bf230cd5": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {},
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "dc606a8a1fb2fc274d2a": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "e328b1551f08b74e1cec": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {},
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "b86574177b3f8dca5372": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "efb0e88f655012820f5e": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "c9b6c7e0ee605477e750": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "e5df36f7100c168cc388",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_Prompts"
+                        }
+                      },
+                      "Property": "Message"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "4fea92fda132679e30a8",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_AssetRegister"
+                        }
+                      },
+                      "Property": "UnitCostID"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "b88946104f83904b15d8",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "h",
+                        "Entity": "AM_Prompts",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "In": {
+                            "Expressions": [
+                              {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "h"
+                                    }
+                                  },
+                                  "Property": "PromptType"
+                                }
+                              }
+                            ],
+                            "Values": [
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'Query'"
+                                  }
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_Prompts"
+                        }
+                      },
+                      "Property": "PromptType"
+                    }
+                  },
+                  "howCreated": 1
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "general": [
+                    {
+                      "properties": {
+                        "filter": {
+                          "filter": {
+                            "Version": 2,
+                            "From": [
+                              {
+                                "Name": "h",
+                                "Entity": "AM_Prompts",
+                                "Type": 0
+                              }
+                            ],
+                            "Where": [
+                              {
+                                "Condition": {
+                                  "In": {
+                                    "Expressions": [
+                                      {
+                                        "Column": {
+                                          "Expression": {
+                                            "SourceRef": {
+                                              "Source": "h"
+                                            }
+                                          },
+                                          "Property": "Message"
+                                        }
+                                      }
+                                    ],
+                                    "Values": [
+                                      [
+                                        {
+                                          "Literal": {
+                                            "Value": "'Choose a question to ask...'"
+                                          }
+                                        }
+                                      ]
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "selection": [
+                    {
+                      "properties": {
+                        "strictSingleSelect": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "true"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "AM_Prompts"
+                        }
+                      },
+                      "Property": "Message"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "bdb533505d3aeacec2ee": {
+            "singleVisual": {
+              "visualType": "textSlicer",
+              "objects": {}
+            }
+          },
+          "bad2f178cf075831ab6e": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "f1246993beb39ab63d34": {
+            "singleVisual": {
+              "visualType": "aiNarratives",
+              "objects": {}
+            }
+          },
+          "26ba3540d638bd3330e6": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "9fe3910cd9d621d9f728",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "_Measures"
+                        }
+                      },
+                      "Property": "Prompt (Current User)"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "advanceCardE03760C5AB684758B56AA29F9E6C257B",
+              "objects": {}
+            }
+          },
+          "322ddc0f340eebdd1075": {
+            "singleVisual": {
+              "visualType": "qnaVisual",
+              "objects": {
+                "merge": {
+                  "hiddenProperties": [
+                    {
+                      "properties": {
+                        "savedUtterance": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "''"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "142bc6255c0aab7e485b": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "a9e340f07a3bdaa92adc": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "3614ad745f533cc8c0e1": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          }
+        },
+        "visualContainerGroups": {
+          "bd840f2e5e5755916019": {
+            "isHidden": true
+          },
+          "4aa9c84d0519b0413838": {
+            "isHidden": true
+          },
+          "16f2c70540ce71800722": {
+            "isHidden": true
+          },
+          "6ed4c3d0c603b1080507": {
+            "isHidden": true
+          },
+          "8f642b4d8eea84207c37": {
+            "isHidden": false
+          },
+          "a95ed5c15ee65f4346b9": {
+            "isHidden": true,
+            "children": {
+              "9e7b8bc9675c5d8c17f6": {
+                "isHidden": false
+              },
+              "10269edf469f110f12e9": {
+                "isHidden": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "true"
+                  }
+                }
+              },
+              "visible": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
