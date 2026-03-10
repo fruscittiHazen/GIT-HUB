@@ -5813,28 +5813,6 @@
               "objects": {}
             }
           },
-          "322ddc0f340eebdd1075": {
-            "singleVisual": {
-              "visualType": "qnaVisual",
-              "objects": {
-                "merge": {
-                  "hiddenProperties": [
-                    {
-                      "properties": {
-                        "savedUtterance": {
-                          "expr": {
-                            "Literal": {
-                              "Value": "''"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              }
-            }
-          },
           "142bc6255c0aab7e485b": {
             "singleVisual": {
               "visualType": "shape",
