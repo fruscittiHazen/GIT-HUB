@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SQLDatabase",
+    "displayName": "QC_Module_SQL_DB"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "68b7b34c-abe4-a1bf-4b4e-91c88b8ed50d"
+  }
+}

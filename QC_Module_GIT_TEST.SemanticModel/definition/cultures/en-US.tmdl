@@ -4544,9 +4544,7 @@ cultureInfo en-US
 			            "Weight": 0.466
 			          }
 			        },
-			        {
-			          "": {}
-			        },
+			        {},
 			        {
 			          "form": {
 			            "Type": "Noun",
@@ -8146,9 +8144,7 @@ cultureInfo en-US
 			            "Weight": 0.491
 			          }
 			        },
-			        {
-			          "": {}
-			        },
+			        {},
 			        {
 			          "set-up": {
 			            "Type": "Noun",
@@ -8745,9 +8741,7 @@ cultureInfo en-US
 			            "Weight": 0.491
 			          }
 			        },
-			        {
-			          "": {}
-			        },
+			        {},
 			        {
 			          "set-up": {
 			            "Type": "Noun",
