@@ -6,6 +6,11 @@
   "name": "Git_Demo_Flow",
   "queryGroups": [],
   "documentLocale": "en-US",
-  "queriesMetadata": {},
+  "queriesMetadata": {
+    "Table": {
+      "queryId": "078ea573-307a-43f2-9e62-eb0cbb198d26",
+      "queryName": "Table"
+    }
+  },
   "connections": []
 }
